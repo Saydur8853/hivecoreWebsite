@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .body{
+    overflow-x: hidden;
+  }
+
+
+.jumbotron{
+    background-image: url(/image/johannes-plenio-FZpCcPss9to-unsplash.jpg);
+    text-align: center;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.jumbotron h1{
+ color: white;   
+}
+.navbar-brand img{
+    width:30%;
+    padding: 50px 0;
+}
+
+.header-nav{
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+
+.link-1 img{
+    float: right;
+    width: 20%;
+    padding-top: 100px;
+    /* padding: auto; */
+}
+.link-2 img{
+    width: 20%;
+    /* padding: auto; */
+}
+.link-3 img{
+    padding-top: 100px;
+    float: left;
+    width: 20%;
+    /* padding: auto; */
+}
+@media only screen and (max-width: 600px) {
+    .link-1 img{
+        width: 40%;
+        padding-top: 80px;
+        
+    }
+    .link-2 img{
+        width: 40%;
+        
+    }
+    .link-3 img{
+        padding-top: 80px;
+        float: left;
+        width: 40%;
+        
+    }
+  }
