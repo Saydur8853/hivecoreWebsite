@@ -86,3 +86,12 @@
 .Feature img{
     width: 40%;
 }
+
+
+.Quote{
+    background: url(./image/edu_base.jpg);
+    text-align: center;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
