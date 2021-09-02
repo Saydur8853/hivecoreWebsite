@@ -95,3 +95,12 @@
     background-position: center;
     background-size: cover;
 }
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+ }
